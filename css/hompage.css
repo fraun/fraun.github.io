@@ -53,7 +53,9 @@ div.fun {
     	border-top:1px solid #909090;
     	font-size: 110%;
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border-bottom:1px solid #909090;
 }
 footer {
     text-size: 50%;
