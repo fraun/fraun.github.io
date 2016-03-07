@@ -34,6 +34,7 @@ input[type=text]:focus {
 	text-align: center;
 }
 table, td, th {
+    float:center;
     text-align: center;
     border: 0px solid black;
 }
