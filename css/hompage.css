@@ -34,7 +34,7 @@ input[type=text]:focus {
 	text-align: center;
 }
 table, td, th {
-    float:center;
+   
     text-align: center;
     border: 0px solid black;
 }
@@ -47,9 +47,8 @@ h1 {
 div.links {
 	margin: auto;
 	border-top:1px solid #909090;
-	font-size: 110%;
+	font-size: 90%;
 	text-align: center;
-	margin-top: 2%;
 	padding:2%;
 	float:center;
 }
