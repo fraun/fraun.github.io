@@ -49,6 +49,7 @@ div.links {
 	font-size: 110%;
 	text-align: center;
 	margin-top: 2%;
+	float:center;
 }
 
 footer {
