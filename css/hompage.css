@@ -10,7 +10,7 @@ body {
 }
 #time {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     color: #808080;
     font-size: 140%;
     padding-bottom: 2%;	
@@ -43,7 +43,7 @@ div.links {
 }
 
 footer {
-    text-size: 50%;
+    font-size: 60%;
     padding: 2%;
     border-top:1px solid #909090;
 }
