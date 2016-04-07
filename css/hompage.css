@@ -24,7 +24,12 @@ table, td, th {
     width: 10%;
     border: 0px solid black;
 }
-
+div.outer {
+	display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 div.links {
 	position: relative;
   	top: 50%;
