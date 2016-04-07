@@ -37,6 +37,7 @@ table, td, th {
 }
 
 div.links {
+	margin-top: 50%;
 	padding: 5%;
 	border-top:1px solid #909090;
 	font-size: 90%;
