@@ -28,7 +28,7 @@ table, td, th {
 div.links {
 	position: relative;
   	top: 25%;
-  	transform: translateY(-50%);
+  	transform: translateY(-25%);
 
 	font-size: 90%;
 }
