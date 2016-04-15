@@ -7,13 +7,14 @@ body {
     opacity:0;
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
+    color: #909090;
 }
 #time {
     text-align: center;
     margin-top: 2%;
     color: #808080;
     font-size: 140%;
-    padding-bottom: 2%;	
+    padding-bottom: 3%;
 }
 
 input[type=text]:focus {
@@ -36,14 +37,15 @@ div.middle {
 }
 div.links {
 	margin-left: auto;
-    	margin-right: auto; 
+    	margin-right: auto;
     	width: 100%;
 	font-size: 90%;
+  padding-bottom: 3%;
 }
 
 footer {
     font-size: 60%;
-
+    padding-top: 3%;
     border-top:1px solid #909090;
 }
 a:link {
@@ -54,7 +56,7 @@ a:link {
 a:hover {
 	text-decoration: none;
 	color: #909090;
-   
+
 }
 a:visited {
     color: #909090;
