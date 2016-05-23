@@ -3,7 +3,7 @@ body {
     background-color: #eeeeee;
     text-align: center;
     font-family: "Roboto", sans-serif, Helvetica, Calibri;
-    font-size: 110%;
+
     opacity:0;
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
@@ -13,7 +13,7 @@ body {
     text-align: center;
     margin-top: 2%;
     color: #808080;
-    font-size: 140%;
+    font-size: 150%;
     padding-bottom: 3%;
 }
 
@@ -22,24 +22,21 @@ input[type=text]:focus {
 }
 table, td, th {
     margin: auto;
-    width: 10%;
+
     border: 0px solid black;
 }
 div.outer {
 	display: table;
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 99%;
+    width: 98%;
 }
 div.middle {
     display: table-cell;
     vertical-align: middle;
 }
 div.links {
-	margin-left: auto;
-    	margin-right: auto;
-    	width: 100%;
-	font-size: 90%;
+  font-size: 100%;
   padding-bottom: 3%;
 }
 
@@ -47,7 +44,8 @@ footer {
     font-size: 60%;
     padding-top: 3%;
     color: #909090;
-    border-top:1px solid #909090;
+    
+    
 }
 a:link {
 	text-decoration: none;
