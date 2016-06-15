@@ -14,7 +14,8 @@ body {
     margin-top: 2%;
     color: #808080;
     font-size: 150%;
-    padding-bottom: 3%;
+    padding: 3%;
+
 }
 
 input[type=text]:focus {
@@ -26,28 +27,40 @@ table, td, th {
     border: 0px solid black;
 }
 div.outer {
+
 	display: table;
     position: absolute;
     height: 99%;
     width: 98%;
 }
 div.middle {
-    display: table-cell;
-    vertical-align: middle;
+
+  display: table-cell;
+  vertical-align: middle;
 }
 div.links {
+  padding-bottom: 3%;
+
   font-size: 100%;
   padding-bottom: 3%;
 }
 
 footer {
-    font-size: 60%;
-    padding-top: 3%;
-    color: #909090;
-    
-    
+  padding: 3%;
+
+  font-size: 60%;
+
+  color: #909090;
+
+
 }
+table {
+  padding: 3%;
+  background-color: #D8D8D8;
+}
+
 a:link {
+
 	text-decoration: none;
 	color: #909090;
 }

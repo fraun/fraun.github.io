@@ -70,37 +70,37 @@
 
 			</tr>
 		</table>
-
-	</div>
-
-	<div id="time">
+		<div id="time">
 
 
-		<script type="text/javascript">
-
-			var currentTime = new Date()
-			var hours = currentTime.getHours()
-			var minutes = currentTime.getMinutes()
-			if (minutes < 10)
-			minutes = '0' + minutes
-
-			document.write("<b>" + hours + ":" + minutes + "</b>")
-			</script>
-			<br>
 			<script type="text/javascript">
-			var currentDate = new Date()
-			var day = currentDate.getDate()
-			var month = currentDate.getMonth() + 1
-			var year = currentDate.getFullYear()
-			if (month < 10)
-			month = '0' + month
-			if (day < 10)
-			day = '0' + day
 
-			document.write("<b>" + day + "/" + month + "/" + year + "</b>")
+				var currentTime = new Date()
+				var hours = currentTime.getHours()
+				var minutes = currentTime.getMinutes()
+				if (minutes < 10)
+				minutes = '0' + minutes
 
-		</script>
+				document.write("<b>" + hours + ":" + minutes + "</b>")
+				</script>
+				<br>
+				<script type="text/javascript">
+				var currentDate = new Date()
+				var day = currentDate.getDate()
+				var month = currentDate.getMonth() + 1
+				var year = currentDate.getFullYear()
+				if (month < 10)
+				month = '0' + month
+				if (day < 10)
+				day = '0' + day
+
+				document.write("<b>" + day + "/" + month + "/" + year + "</b>")
+
+			</script>
+		</div>
 	</div>
+
+
 
 	<footer>
 		Storage <br>
